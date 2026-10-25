@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(24, 23, 23);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.ladoFora {
+    padding: 5px;
+    box-shadow: -4px 4px 10px gray;
+    width: 30vmin;
+    background-color: aliceblue;
+    height: 11vmin;
+    border-radius: 100px;
+}
+
+.ladodentro {
+    background-color: rgb(93, 118, 119);
+    border: 2px solid rgb(255, 255, 255);
+    height: 95%;
+    width: 33%;
+    border-radius: 100px;
+}
+
+.paraDireita {
+    margin-left: 100%;
+    transform: translateX(-100%);
+    transition: margin-left 1.0s ease, transform 1.0s ease;
+}
+
+.paraEsquerda {
+    margin-right: 0;
+    transform: translateX(0);
+    transition: margin-left 1.0s ease, transform 1.0s ease;
+}
